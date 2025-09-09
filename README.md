@@ -61,7 +61,7 @@ The system allows **lecturers** to submit claims with supporting documents, and 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/CMCSPrototype.git
+   git clone https://github.com/your-username/ContractMonthlyClaimSystem2.git
 
 ---
 
@@ -89,7 +89,7 @@ The system allows **lecturers** to submit claims with supporting documents, and 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/CMCSPrototype.git
+   git clone https://github.com/your-username/ContractMonthlyClaimSystem2.git
 
 ---
 
@@ -117,13 +117,14 @@ The system allows **lecturers** to submit claims with supporting documents, and 
 
 1. Clone the repository:
    
-   git clone https://github.com/your-username/CMCSPrototype.git
+   git clone https://github.com/your-username/ContractMonthlyClaimSystem2.git
 
 ---
 
 ## 🖼️ GUI Screens (Prototype)
 
 - **Login Page** – Email, Password, Role Selection, Login, Forgot Password.
+- **Login With the given creadentials.
 - **Dashboard** – Role-specific navigation.
 - **Submit Claim Form** – Month, Amount, Upload documents, Submit.
 - **Approval Panel** – List of claims, Approve/Reject with comments.
@@ -145,7 +146,7 @@ The system allows **lecturers** to submit claims with supporting documents, and 
 
 1. Clone the repository:
    
-   git clone https://github.com/your-username/CMCSPrototype.git
+   git clone https://github.com/your-username/ContractMonthlyClaimSystem2.git
 
 ---
 
@@ -173,7 +174,7 @@ The system allows **lecturers** to submit claims with supporting documents, and 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/CMCSPrototype.git
+   git clone https://github.com/your-username/ContractMonthlyClaimSystem2.git
 
 ---
 
@@ -213,7 +214,7 @@ Set App.xaml.cs startup window to MainWindow:
 protected override void OnStartup(StartupEventArgs e)
 {
     base.OnStartup(e);
-    var login = new CMCSPrototype.Views.LoginWindow();
+    var login = new CMCSPrototype.Views.MainWindow();
     login.Show();
 }
 Build the project:
